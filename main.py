@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from astar_path_planning.main import app
 
 if __name__ == "__main__":
-    # 确保目录结构存在
+    # 确保目录  结构存在
     os.makedirs("astar_path_planning/app/static", exist_ok=True)
     
     # 运行应用
