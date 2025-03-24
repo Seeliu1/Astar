@@ -1,0 +1,97 @@
+/* 基本样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 网格容器样式 */
+.grid-container {
+    position: relative;
+    overflow: auto;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.grid-canvas {
+    cursor: pointer;
+}
+
+/* 表单样式 */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-tool {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* 图例样式 */
+.terrain-legend {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.legend-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border: 1px solid #888;
+}
+
+/* 统计信息容器 */
+.stats-container {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.stats-container h5 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* 响应式布局适配 */
+@media (max-width: 768px) {
+    .col-md-4 {
+        margin-top: 20px;
+    }
+} 
